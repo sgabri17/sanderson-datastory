@@ -1,5 +1,63 @@
 html{
-	font-size: 70px;
-	font-family: "Broadway";
-	background-color: DarkGoldenRod;
+h1 {
+  font-size: 70px;
+  font-family: 'lobster'; 
+  text-align: center;
+  color: #BF4E28;
+  margin-bottom: 0px;
+}
+
+p{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'cabin';
+  color: black;
+  padding: 50px;
+  margin-bottom: 5px;
+}
+
+h1, p{
+  background-color: #F6F7BE;
+  min-height: 100px;
+  margin-top: 0px;
+}
+section#personal div,
+section#social div, 
+section#resources div{
+  min-height: 250px;
+  margin-bottom: 5px;
+  font-family: 'lobster';
+}
+section#personal div {
+  background: #F6F7BE;
+  color: #665743;
+  font-size: 32px;
+}
+section#social div{
+  background: #E5AC27;
+  color: #665743;
+  font-size: 32px;
+}
+section#resources div{
+  background: #F65743;
+  font-size: 32px;
+}
+
+section#personal,
+section#social {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+}
+
+@media screen and (min-width:1080px) {
+  section#personal {
+    grid-template-columns: 1fr 50%;
+  }
+}
+@media screen and (max-width: 670px) {
+  section#social div.content-wrapper{
+    grid-row; 1;
+    grid-column: 1;
+  }
 }
