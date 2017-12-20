@@ -106,7 +106,7 @@ section#social {
   }
 }
 @media screen and (max-width: 670px) {
-  section#social
+  section#social div.content-wrapper{
     grid-row; 1;
     grid-column: 1;
   }
