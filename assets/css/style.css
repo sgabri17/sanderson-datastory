@@ -1,42 +1,91 @@
 html{
-h1 {
+ h1 {
+  color: #665743;
   font-size: 70px;
-  font-family: 'lobster'; 
+  font-family: 'broadway'; 
   text-align: center;
-  color: #BF4E28;
   margin-bottom: 0px;
-}
+  text-shadow:
+    -1px -1px 0 #80BDA4,
+		1px -1px 0 #80BDA4,
+		-1px 1px 0 #80BDA4,
+		1px 1px 0 #80BDA4;
+} 
 
 p{
   font-size: 20px;
-  text-align: center;
-  font-family: 'cabin';
+  font-family: 'futura';
   color: black;
-  padding: 50px;
+  padding: 15px;
   margin-bottom: 5px;
+  text-align: center; 
 }
 
-h1, p{
-  background-color: #F6F7BE;
+h1, h2, h3, p{
+  background-color: #E5AC27;
   min-height: 100px;
-  margin-top: 0px;
+  margin-top: 0px; 
 }
+
+h2 {
+  font-size: 45px;
+  margin-left: 15px;
+  margin-top: 5px;
+  color: #BF4E28;
+  text-shadow:
+    -1px -1px 0 #80BDA4,
+		1px -1px 0 #80BDA4,
+		-1px 1px 0 #80BDA4,
+		1px 1px 0 #80BDA4;
+}
+
+h3{
+  font-size: 45px;
+  margin-left: 15px;
+  margin-top: 5px;
+  color: #BF4E28;
+  text-shadow:
+    -1px -1px 0 #80BDA4,
+		1px -1px 0 #80BDA4,
+		-1px 1px 0 #80BDA4,
+		1px 1px 0 #80BDA4;
+}
+
+img{
+  margin: auto;
+  width: 100%;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe{
+ margin: auto;
+ display: block;
+ margin: 0 auto;
+ width: 100%;
+ margin-top: 18px;
+}
+
 section#personal div,
 section#social div, 
 section#resources div{
   min-height: 250px;
   margin-bottom: 5px;
-  font-family: 'lobster';
+  font-family: 'broadway';
+  text-align: left;
 }
 section#personal div {
-  background: #F6F7BE;
+  background: #E5AC27;
   color: #665743;
   font-size: 32px;
+  text-align: left;
 }
 section#social div{
   background: #E5AC27;
   color: #665743;
-  font-size: 32px;
+  font-size: 32px
 }
 section#resources div{
   background: #F65743;
@@ -61,3 +110,4 @@ section#social {
     grid-column: 1;
   }
 }
+/html>
