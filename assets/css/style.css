@@ -1,5 +1,4 @@
-<html{
-   h1 {
+  h1 {
   color: #665743;
   font-size: 70px;
   font-family: 'broadway'; 
@@ -106,10 +105,9 @@ section#social {
     grid-template-columns: 1fr 50%;
   }
 }
-@media screen and (max-width: 670px){
+@media screen and (max-width: 670px) {
   section#social div.content-wrapper{
     grid-row; 1;
     grid-column: 1;
   }
 }
-/html>
